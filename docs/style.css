@@ -1,0 +1,59 @@
+
+
+#title {
+    position: relative;
+    background: #ffd98a;
+    padding: 20px 25px 20px 25px;
+    margin:20px 40px 40px 80px;
+    text-align: center;
+    font-size:xx-large;
+    color: #474747;
+    font-family:'メイリオ', 'Meiryo','ＭＳ ゴシック','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+#title:before {
+    content:" ";
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    line-height: 40px;
+    position: absolute;
+    padding: 0em;
+    background-image: url(trophy.png);
+    background-size: contain;
+    font-weight: 900;
+    width: 100px;
+    text-align: center;
+    height: 100px;
+    line-height: 40px;
+    left: -1.35em;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    border: solid 3px white; 
+    border-radius: 50%;
+  }
+
+#overall {
+    margin-top: 15px;
+}
+
+body {
+    height: 90%;
+    margin: 0;
+    font-size: large;
+    background-color:#fde8a1;
+    font-family:'メイリオ', 'Meiryo','ＭＳ ゴシック','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+}
+
+#im1,#im2,#im3,#video {
+   text-align:center; 
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+
+h2 {
+    padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+    color: #494949;/*文字色*/
+    background: #fce9d3;/*背景色*/
+    border-left: solid 5px #ffaf58;/*左線（実線 太さ 色）*/
+  }
